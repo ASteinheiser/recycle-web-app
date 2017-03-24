@@ -1,0 +1,23 @@
+.fullWindow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  background: rgba(20, 160, 99, 0.7);
+  background-size: cover;
+
+  height: 100%;
+  min-height: 700px;
+  width: 100%;
+
+  overflow: scroll;
+}
+
+.innerWidth {
+  width: 750px;
+  margin: 0 auto;
+}
