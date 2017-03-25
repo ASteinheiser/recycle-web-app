@@ -23,7 +23,7 @@ export default class Map extends React.Component {
         <br />
 
         <div className={[styles.paddingLeft]}>
-          <img src="http://i.imgur.com/eJ1DfX2.png" />
+          <img src="http://i.imgur.com/aT5LL3a.gif" />
         </div>
 
       </div>
