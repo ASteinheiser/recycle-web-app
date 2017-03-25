@@ -9,12 +9,22 @@ export default class Map extends React.Component {
     return (
       <div className={[styles.innerWidth]}>
         <br />
+        <br />
 
         <StyledText
-          text="Map"
-          size="large"
+          text="Watch as trucks make their routes and see exactly what time they pass by your location."
+          size="regular"
           color="blue"
         />
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div className={[styles.paddingLeft]}>
+          <img src="http://i.imgur.com/eJ1DfX2.png" />
+        </div>
 
       </div>
     )
