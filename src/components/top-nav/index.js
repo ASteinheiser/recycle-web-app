@@ -18,15 +18,9 @@ export default class TopNav extends React.Component {
         <div className={[styles.topNavContainer]}>
 
           <TopNavTab
-            text="About"
-            linkTo="/"
-            active={this.props.currentPage === '/'}
-          />
-
-          <TopNavTab
-            text="Live Map"
-            linkTo="/map"
-            active={this.props.currentPage === '/map'}
+            text="More"
+            linkTo="/more"
+            active={this.props.currentPage === '/more'}
           />
 
           <TopNavTab
@@ -36,9 +30,9 @@ export default class TopNav extends React.Component {
           />
 
           <TopNavTab
-            text="More"
-            linkTo="/more"
-            active={this.props.currentPage === '/more'}
+            text="Live Map"
+            linkTo="/"
+            active={this.props.currentPage === '/'}
           />
 
         </div>

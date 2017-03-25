@@ -1,0 +1,12 @@
+.content {
+  width: 220px;
+  margin: 0px 15px 0px 15px;
+
+  float: left;
+  text-align: center;
+}
+
+.divider {
+  border-bottom: 2px solid rgb(50, 82, 181);
+  padding-bottom: 15px;
+}
